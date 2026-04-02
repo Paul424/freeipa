@@ -6,7 +6,7 @@ metadata:
 spec:
   selector:
     app: freeipa-server
-  clusterIP: 10.43.201.201
+  clusterIP: 10.96.128.128
   ports:
   - name: http
     port: 80
