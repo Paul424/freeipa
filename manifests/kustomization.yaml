@@ -1,0 +1,9 @@
+namespace: freeipa
+namePrefix: dev-
+resources:
+- namespace.yaml
+- pvc.yaml
+- secret.yaml
+# - configmap.yaml
+- service.yaml
+- deployment.yaml
