@@ -61,8 +61,8 @@ spec:
       hostAliases:
       - ip: "10.96.128.128"
         hostnames:
-        - "freeipa-server.dom1.default.svc.cluster.local"
-      subdomain: dom1
+        - "freeipa-server.d.freeipa.svc.cluster.local"
+      subdomain: d
       setHostnameAsFQDN: true
       volumes:
       - name: freeipa-server-data

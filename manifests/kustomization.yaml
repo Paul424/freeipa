@@ -1,5 +1,5 @@
 namespace: freeipa
-namePrefix: dev-
+# namePrefix: dev-
 resources:
 - namespace.yaml
 - pvc.yaml
